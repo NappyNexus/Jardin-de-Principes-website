@@ -1,55 +1,11 @@
+/*Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-/*::root{*/
-/*    --jdpblue: */
-/*}*/
+/*File Imports*/
+@import url(./styles/header_style.css);
+@import url(./styles/navBar_style.css);
+:root{
+    --jdpblue: #00255b;
+    --jdporange: #e67e22;
+}
 
 *{margin: 0; padding: 0; box-sizing: border-box;}
-
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 200px;
-    height: 10vh;
-
-}
-
-.phone-wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    min-width: 150px;
-    min-height: 50px;
-}
-
-.phone-wrapper p{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-}
-#Layer_3{
-    margin-top: 1px;
-}
-
-.logo-i{
-    width: 250px;
-}
-
-.navigation-menu{
-
-}
-
-.menu{
-    display: flex;
-    gap: 20px;
-}
-
-.menu li{
-    list-style: none;
-}
-
-.menu li a{
-    text-decoration: none;
-}

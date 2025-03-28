@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 200px;
+    height: 10vh;
+    /*background: #ff3402;*/
+}
+
+.phone-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    min-width: 150px;
+    min-height: 50px;
+    /*color: white;*/
+}
+
+.phone-wrapper p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+#Layer_3{
+    margin-top: 1px;
+    /*fill: white;*/
+}
+
+.logo-i{
+    width: 250px;
+}
