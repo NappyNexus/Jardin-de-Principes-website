@@ -1,6 +1,15 @@
+nav{
+    background: var(--jdporange);
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .menu{
     display: flex;
-    gap: 20px;
+    gap: 30px;
+
 }
 
 .menu li{
@@ -9,4 +18,14 @@
 
 .menu li a{
     text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 19px;
+    color: white;
+}
+
+.menu li a:hover{
+    color: black;
+    font-weight: 500;
+    transition: 400ms ease-in-out;
+
 }
