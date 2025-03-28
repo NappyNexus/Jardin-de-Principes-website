@@ -1,19 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*::root{*/
+/*    --jdpblue: */
+/*}*/
+
 *{margin: 0; padding: 0; box-sizing: border-box;}
 
-.navigation-menu-container{
-    background-color: aquamarine;
+header{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 0 200px;
+    height: 10vh;
+
 }
 
-.logo{
-    float: left;
-    background-color: brown;
-    margin: 10px;
+.phone-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    min-width: 150px;
+    min-height: 50px;
+}
+
+.phone-wrapper p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+#Layer_3{
+    margin-top: 1px;
 }
 
 .logo-i{
-    width: 200px;
+    width: 250px;
 }
 
 .navigation-menu{
