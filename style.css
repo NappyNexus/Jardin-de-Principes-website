@@ -6,6 +6,8 @@
 @import url(./styles/header_style.css);
 @import url(./styles/navBar_style.css);
 @import url(./styles/first_section.css);
+/*Tailwindcss*/
+@import "tailwindcss";
 :root{
     --jdpblue: #00255b;
     --jdporange: #e67e22;
