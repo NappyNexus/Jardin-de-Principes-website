@@ -29,13 +29,14 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     /*background-color: #e67e22;*/
-    margin: 20px auto 60px auto;
+    margin: 20px auto 40px auto;
 }
 
 /* ----------------- BUTTON STYLE ----------------- */
 .get-started-button{
     display: block;
     margin: auto;
+    margin-bottom: 2rem;
     font-family: "Montserrat", sans-serif;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -58,7 +59,7 @@
     gap: 20px; /* Adjust gap as needed */
     /*max-width: 910px; !* Total width (300*3 + 10*2) *!*/
     /*margin: 0 auto; !* Center the container *!*/
-    margin-bottom: 2rem;
+    /*margin-bottom: 5rem;*/
 }
 
 .card {
@@ -75,6 +76,7 @@
 .card-middle-top {
     grid-row: 1 / 2; /* First row */
     background-color: #e0f15e; /* Light Lavender */
+    position: relative;
 }
 
 .card-middle-bottom {
@@ -122,4 +124,50 @@
     position: relative;
     left: 5%;
     top: 10%;
+}
+
+/* CARD CONTENT DESIGN */
+.idea{
+    position: absolute;
+    left: 76%;
+    top: 49%;
+    rotate: -45deg;
+}
+
+.line-draw{
+    position: absolute;
+    left: 12%;
+    top: 67%;
+}
+
+.profile-wrapper{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+.profile-wrapper img{
+    width: 60px; /* Adjust as needed */
+    height: 60px; /* Adjust as needed */
+    border-radius: 50%; /* Make images circular */
+    border: 5px solid #e0f15e; /* Optional: Add a white border for separation */
+    object-fit: cover; /* Ensure images fill the circle */
+    object-position: top;
+    margin-left: -15px; /* Negative margin to create overlap */
+    z-index: 1;
+}
+
+.more-count {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px; /* Negative margin to create overlap */
+    font-family: "Montserrat", sans-serif;
 }
