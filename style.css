@@ -3,9 +3,21 @@
 /*File Imports*/
 @import url(./styles/header_style.css);
 @import url(./styles/navBar_style.css);
+@import url(./styles/first_section.css);
 :root{
     --jdpblue: #00255b;
     --jdporange: #e67e22;
 }
 
 *{margin: 0; padding: 0; box-sizing: border-box;}
+
+main{
+    background-color: darkgray;
+    max-width: 100vw;
+    max-height: 100vh;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
