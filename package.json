@@ -1,6 +1,29 @@
 {
   "dependencies": {
-    "@tailwindcss/cli": "^4.0.17",
+    "@tailwindcss/cli": "^4.0.17"
+  },
+  "name": "jardin-de-principes-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
     "tailwindcss": "^4.0.17"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NappyNexus/Jardin-de-Principes-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/NappyNexus/Jardin-de-Principes-website/issues"
+  },
+  "homepage": "https://github.com/NappyNexus/Jardin-de-Principes-website#readme"
 }
