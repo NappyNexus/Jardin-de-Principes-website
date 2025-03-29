@@ -14,10 +14,8 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
 
 main{
-    /*background-color: darkgray;*/
     max-width: 100vw;
-    max-height: 100vh;
-    padding-top: 20px;
+    padding-top: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
