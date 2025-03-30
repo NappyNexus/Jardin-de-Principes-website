@@ -1,29 +1,30 @@
 {
-  "dependencies": {
-    "@tailwindcss/cli": "^4.0.17"
-  },
   "name": "jardin-de-principes-website",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "devDependencies": {
-    "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.3",
-    "tailwindcss": "^4.0.17"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [],
+  "homepage": "https://github.com/NappyNexus/Jardin-de-Principes-website#readme",
+  "bugs": {
+    "url": "https://github.com/NappyNexus/Jardin-de-Principes-website/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NappyNexus/Jardin-de-Principes-website.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
+  "author": "",
   "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/NappyNexus/Jardin-de-Principes-website/issues"
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i ./style.css -o ./output.css --watch"
   },
-  "homepage": "https://github.com/NappyNexus/Jardin-de-Principes-website#readme"
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.17"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.17"
+  }
 }
