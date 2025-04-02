@@ -1,0 +1,26 @@
+.divisor-section{
+    margin: 5rem auto;
+
+    padding: 2rem;
+    border: 3px dotted black;
+    position: relative;
+}
+
+.divisor-text{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #929292;
+}
+
+.bold{
+    color: black;
+}
+
+.shield{
+    width: 60px;
+    position: absolute;
+    top: -30px;
+    left: 43%;
+}

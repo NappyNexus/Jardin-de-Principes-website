@@ -6,6 +6,7 @@
 @import url(./styles/header_style.css);
 @import url(./styles/navBar_style.css);
 @import url(./styles/first_section.css);
+@import url(./styles/divisor_section.css);
 /*Tailwindcss*/
 @import "tailwindcss";
 :root{
