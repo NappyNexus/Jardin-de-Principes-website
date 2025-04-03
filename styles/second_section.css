@@ -1,7 +1,6 @@
 .second-section{
     width: 90vw;
     height: fit-content;
-    background-color: darkgray;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -150,8 +149,7 @@ button:focus:not(:focus-visible) {
 /* -------------------- END BUTTON STYLE -------------------- */
 
 .grid-container{
-    margin-top: 30px;
-    background-color: brown;
+    margin-top: 80px;
     height: fit-content;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -159,13 +157,13 @@ button:focus:not(:focus-visible) {
 }
 
 .second-s-card{
-    border-radius: 50px;
-    min-width: 500px;
+    border-radius: 20px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*justify-content: center;*/
-    padding: 30px;
+    justify-content: center;
+    padding: 20px;
 }
 
 .first-card{
@@ -183,8 +181,17 @@ button:focus:not(:focus-visible) {
 .top-container{
     display: flex;
     align-items: flex-end;
-    justify-content: center;
+    justify-content: space-between;
     gap: 4rem;
+    margin-bottom: 50px;
+}
+
+.top-container-less-space{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-bottom: 50px;
 }
 
 .card-title{
@@ -212,5 +219,4 @@ button:focus:not(:focus-visible) {
     width: 40px;
     height: 40px;
     border-radius: 100%;
-
 }
