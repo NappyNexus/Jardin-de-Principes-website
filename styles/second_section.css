@@ -106,7 +106,7 @@ button {
     border-radius: 20px;
     font-size: 1.1rem;
     color: white;
-    background: hsl(345deg 100% 47%);
+    background: hsl(12, 100%, 50%);
     will-change: transform;
     transform: translateY(-4px);
     transition: transform
